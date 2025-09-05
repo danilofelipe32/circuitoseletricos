@@ -1,0 +1,5 @@
+{
+  "name": "Simulador de Circuitos Elétricos",
+  "description": "Uma aplicação web interativa para visualizar e compreender as diferenças fundamentais entre circuitos elétricos com lâmpadas ligadas em série e em paralelo. Os usuários podem ligar e desligar a energia, adicionar ou remover lâmpadas e simular falhas para ver como cada tipo de circuito reage.",
+  "requestFramePermissions": []
+}

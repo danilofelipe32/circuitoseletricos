@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Circuitos Elétricos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+          "react/": "https://aistudiocdn.com/react@^19.1.1/",
+          "react": "https://aistudiocdn.com/react@^19.1.1"
+        }
+      }
+    </script>
+    <style>
+      @keyframes flow {
+        from {
+          background-position: 0 0;
+        }
+        to {
+          background-position: 28px 0;
+        }
+      }
+      .animate-flow {
+        background-size: 28px 28px;
+        animation: flow var(--flow-duration, 2s) linear infinite;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-gray-100">
+    <div id="root"></div>
+  </body>
+</html>
